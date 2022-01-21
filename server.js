@@ -9,8 +9,12 @@ const request = require('request')
 // array of urls from sources.json where active is true
 const urls = feeds.filter(entry => {if (entry.active == true){return entry}}).map(entry => (entry.url))
 
-// initalize the feed object
-const feeder = new RssFeedEmitter();
+// initalize the feed object, with options
+const feeder = new RssFeedEmitter(
+    {
+        skipFirstLoad: true // avoids the dump of current-state data from feeds
+    }
+);
 
 // add our urls with the refersh interval from config.json
 urls.forEach((url) => {
