@@ -1,5 +1,5 @@
 # simple-realtime-rss
-The simplest realtime RSS feed server
+The simplest realtime RSS feed server. No bot Oauth or anything!
 
 
 ## Installing
