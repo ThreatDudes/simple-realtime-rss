@@ -1,0 +1,30 @@
+{
+  "name": "simple-realtime-rss",
+  "version": "1.0.0",
+  "description": "simple realtime rss feed server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThreatDudes/simple-realtime-rss.git"
+  },
+  "keywords": [
+    "rss",
+    "realtime",
+    "feed",
+    "threat",
+    "intelligence"
+  ],
+  "author": "@aaronsdevera",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ThreatDudes/simple-realtime-rss/issues"
+  },
+  "homepage": "https://github.com/ThreatDudes/simple-realtime-rss#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "rss-feed-emitter": "^3.2.2"
+  }
+}
