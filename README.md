@@ -3,10 +3,11 @@ The simplest realtime RSS feed server. No bot Oauth or anything!
 
 
 ## Installing
-The only external library here is [`rss-feed-emitter`](https://www.npmjs.com/package/rss-feed-emitter). It can be installed with
+For RSS, we use the external library here [`rss-feed-emitter`](https://www.npmjs.com/package/rss-feed-emitter). It can be installed with
 ```
 npm i rss-feed-emitter
 ```
+Redis is also used as databse for storing feed information. [Read this quickstart here](https://redis.io/topics/quickstart) for instructions on installation. In the `config.json` make sure your Redis host IP and Port match what is running on the system.
 
 ## Configuration
 In `feeds.json` you can list out the feeds you would want to ingest with this schema:
