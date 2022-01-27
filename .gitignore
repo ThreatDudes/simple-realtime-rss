@@ -131,5 +131,7 @@ dist
 
 Intelij IDEA
 .idea/
+*.rdb
+*.log
 
 config.json
