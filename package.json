@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/ThreatDudes/simple-realtime-rss#readme",
   "dependencies": {
+    "figlet": "^1.5.2",
     "redis": "^4.0.2",
     "request": "^2.88.2",
     "rss-feed-emitter": "^3.2.2",
