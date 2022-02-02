@@ -163,5 +163,193 @@
       "category": "VENDOR",
       "protocol": "rss",
       "description": "The Microsoft Security Response Center is part of the defender community and on the front line of security response evolution."
+    },
+    {
+      "id": "",
+      "name": "threat post",
+      "created_at": "",
+      "url": "https://threatpost.com/feed",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Threatpost is a long-running, independent source of news and analysis about the cybersecurity landscape, covering breaking news and threat research, malware and vulnerability analysis, long-term trends and everything in-between."
+    },
+    {
+      "id": "",
+      "name": "Security Magazine",
+      "created_at": "",
+      "url": "https://www.securitymagazine.com/rss/15",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Security magazine is the security industry’s go-to source for enterprise security trends, metrics, news and more!"
+    },
+    {
+      "id": "",
+      "name": "Dark Reading",
+      "created_at": "",
+      "url": "https://www.darkreading.com/rss.xml",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Long one of the most widely read cybersecurity online news sites, Dark Reading is also the most trusted online community for security professionals like you. Our community members include thought-leading security researchers, CISOs, and technology specialists, along with thousands of other security professionals."
+    },
+    {
+      "id": "",
+      "name": "Krebs on Security",
+      "created_at": "",
+      "url": "https://krebsonsecurity.com/feed/",
+      "rating": 1,
+      "active": true,
+      "category": "BLOG",
+      "protocol": "rss",
+      "description": "Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well as hundreds of stories for washingtonpost.com and The Washington Post newspaper, including eight front-page stories in the dead-tree edition and a Post Magazine cover piece on botnet operators."
+    },
+    {
+      "id": "",
+      "name": "Schneier on Security",
+      "created_at": "",
+      "url": "https://www.schneier.com/blog/atom.xml",
+      "rating": 1,
+      "active": true,
+      "category": "BLOG",
+      "protocol": "rss",
+      "description": "Bruce Schneier is an internationally renowned security technologist, called a 'security guru' by The Economist. He is the author of over one dozen books–including his latest, We Have Root–as well as hundreds of articles, essays, and academic papers."
+    },
+    {
+      "id": "",
+      "name": "Naked Security",
+      "created_at": "",
+      "url": "https://nakedsecurity.sophos.com/feed",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "Naked Security is Sophos’s award-winning threat news room, giving you news, opinion, advice and research on computer security issues and the latest internet threats."
+    },
+    {
+  "id": "",
+      "name": "ZDNet",
+      "created_at": "",
+      "url": "https://www.zdnet.com/topic/security/rss.xml",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "ZDNet brings together the reach of global and the depth of local, delivering 24/7 news coverage and analysis on the trends, technologies, and opportunities that matter to IT professionals and decision makers."
+    },
+    {
+  "id": "",
+      "name": "CSO Online",
+      "created_at": "",
+      "url": "https://www.csoonline.com/index.rss",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "CSO serves enterprise security decision-makers and users with the critical information they need to stay ahead of evolving threats and defend against criminal cyberattacks. With incisive content that addresses all security disciplines from risk management to network defense to fraud and data loss prevention, CSO offers unparalleled depth and insight to support key decisions and investments for IT security professionals."
+    },
+    {
+  "id": "",
+      "name": "Center for Internet Security",
+      "created_at": "",
+      "url": "https://www.cisecurity.org/feed/alert",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "The Center for Internet Security, Inc. (CIS®) makes the connected world a safer place for people, businesses, and governments through our core competencies of collaboration and innovation."
+    },
+    {
+
+  "id": "",
+      "name": "Center for Internet Security",
+      "created_at": "",
+      "url": "https://www.cisecurity.org/feed/advisories",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "The Center for Internet Security, Inc. (CIS®) makes the connected world a safer place for people, businesses, and governments through our core competencies of collaboration and innovation."
+    },
+    {
+  "id": "",
+      "name": "CISCO",
+      "created_at": "",
+      "url": "http://tools.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "Cisco helps seize the opportunities of tomorrow by proving that amazing things can happen when you connect the unconnected. An integral part of our DNA is creating long-lasting customer partnerships, working together to identify our customers' needs and provide solutions that fuel their success."
+    },
+    {
+  "id": "",
+      "name": "CISCO",
+      "created_at": "",
+      "url": "http://tools.cisco.com/security/center/eventResponses_20.xml",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "Cisco helps seize the opportunities of tomorrow by proving that amazing things can happen when you connect the unconnected. An integral part of our DNA is creating long-lasting customer partnerships, working together to identify our customers' needs and provide solutions that fuel their success."
+    },
+    {
+  "id": "",
+      "name": "SECURELIST by Kaspersky",
+      "created_at": "",
+      "url": "https://securelist.com/feed",
+      "rating": 1,
+      "active": true,
+      "category": "VENDOR",
+      "protocol": "rss",
+      "description": "Kaspersky is a global cybersecurity company founded in 1997. Kaspersky’s deep threat intelligence and security expertise is constantly transforming into innovative security solutions and services to protect businesses, critical infrastructure, governments and consumers around the globe."
+    },
+    {
+  "id": "",
+      "name": "CYBERSCOOP",
+      "created_at": "",
+      "url": "https://www.cyberscoop.com/feed",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "CyberScoop is the leading media brand in the cybersecurity market. With more than 6.0M monthly unique engagements, CyberScoop reports on news and events impacting technology and security."
+    },
+    {
+  "id": "",
+      "name": "Heathcare IT News",
+      "created_at": "",
+      "url": "https://www.healthcareitnews.com/home/feed",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Healthcare IT News is the industry’s authoritative source covering the people, policy and technology driving next-generation healthcare in the U.S. and throughout the world. Since 2003, it has been the voice of health IT, delivering editorial insights about compelling topics such as electronic health records, health information exchange, privacy and security, data analytics, patient engagement, population health and revenue cycle management."
+    },
+    {
+  "id": "",
+      "name": "Bleeping Computer",
+      "created_at": "",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Bleeping Computer® is an information security and technology news publication created in 2004 by Lawrence Abrams. Millions of visitors come to BleepingComputer.com every month to learn about the latest security threats, technology news, ways to stay protected online, and how to use their computers more efficiently."
+    },
+    {
+  "id": "",
+      "name": "Bleeping Computer",
+      "created_at": "",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "rating": 1,
+      "active": true,
+      "category": "MEDIA",
+      "protocol": "rss",
+      "description": "Bleeping Computer® is an information security and technology news publication created in 2004 by Lawrence Abrams. Millions of visitors come to BleepingComputer.com every month to learn about the latest security threats, technology news, ways to stay protected online, and how to use their computers more efficiently."
     }
-  ]
+]

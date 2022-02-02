@@ -1,7 +1,4 @@
 {
-  "webhook": [
-    "<url>",
-    "<url>"
-  ],
+  "webhook": "<url>",
   "refresh_interval": 2000
 }
