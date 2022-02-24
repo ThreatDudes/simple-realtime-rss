@@ -65,18 +65,18 @@ feeder.on('new-item', async function (item) {
         }
       }
     }
-    const itemObject = {timestamp, link, title, author, text_summary}
-
-    let message_string = `**${title}**\nPublished: ${timestamp}\nby ${author}\n${link}\n`;
 
     console.log(`[+] NEW: "${title}"`)
     console.log(`[+] Posting to webhook...`)
 
-
     const options = {
       url: config.webhook, headers: {
         'Content-Type': 'application/json'
-      }, json: true, body: {'content': message_string}
+      }, json: true, body: {
+        "tts": false, "username": author, "embeds": [{
+          "type": "rich", "title": title, "description": text_summary, "color": 0x00FFFF, "url": link
+        }]
+      }
     }
 
     const req = request.post(options, (err, res, body) => {
